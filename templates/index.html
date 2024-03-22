@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h2>House Price Prediction</h2>
+    <form action="/predict" method="post">
+        <label for="feature1">Feature 1:</label><br>
+        <input type="text" id="feature1" name="feature1"><br>
+        <label for="feature2">Feature 2:</label><br>
+        <input type="text" id="feature2" name="feature2"><br>
+        <!-- Add more input fields for other features -->
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
